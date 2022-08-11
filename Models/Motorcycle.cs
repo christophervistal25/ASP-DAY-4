@@ -4,6 +4,7 @@ namespace API.Models
 {
     public class Motorcycle : BaseEntity
     {
+       
         public string Name { get; set; }
 
         public string Description { get; set; }
@@ -16,9 +17,7 @@ namespace API.Models
 
         public string ChasisNumber { get; set; }
 
-        public Owner Owner { get; set; }
-
-    
+        public Owner MotorcycleOwner { get; set; }
     }
 
 }
